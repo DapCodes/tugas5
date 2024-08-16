@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluasi HTML Dasar</title>
+</head>
+<body>
+    <!-- Bagian 1: Struktur Dasar HTML -->
+    <h1>Selamat Datang di Evaluasi HTML</h1>
+    <p>Halaman ini bertujuan untuk menguji pemahaman dasar tentang HTML dan cara mengelola teks, hyperlink, gambar, daftar, tabel, dan formulir.</p>
+
+    <!-- Bagian 2: Pengelolaan Teks -->
+    <h2>Pengelolaan Teks</h2>
+    <p>Ini adalah contoh paragraf dengan beberapa bagian teks yang <strong>tebal</strong> dan <em>miring</em> untuk menunjukkan pengelolaan teks dalam HTML.</p>
+    <hr>
+    <blockquote>
+        "Kesuksesan adalah kemampuan untuk berpindah dari satu kegagalan ke kegagalan lainnya tanpa kehilangan antusiasme." - Winston Churchill
+    </blockquote>
+
+    <!-- Bagian 3: Hyperlink dan Gambar -->
+    <h2>Hyperlink dan Gambar</h2>
+    <p>Kunjungi situs web favorit saya: <a href="https://www.example.com" target="_blank">Contoh Situs Web</a>.</p>
+    <a href="https://www.example.com" target="_blank">
+        <img src="https://www.example.com/path/to/image.jpg" alt="Gambar contoh" width="300">
+    </a>
+
+    <!-- Bagian 4: Membuat Daftar -->
+    <h2>Membuat Daftar</h2>
+    <h3>Daftar Terurut (Hal yang ingin dicapai dalam satu tahun ke depan)</h3>
+    <ol>
+        <li>Belajar bahasa baru</li>
+        <li>Mengunjungi negara baru</li>
+        <li>Meningkatkan keterampilan programming</li>
+    </ol>
+    <h3>Daftar Tidak Terurut (Hobi atau aktivitas favorit)</h3>
+    <ul>
+        <li>Membaca</li>
+        <li>Bersepeda</li>
+        <li>Memasak</li>
+    </ul>
+
+    <!-- Bagian 5: Membuat Tabel -->
+    <h2>Tabel Data</h2>
+    <table border="1" cellpadding="5">
+        <tr>
+            <th>Nama</th>
+            <th>Umur</th>
+            <th>Kota</th>
+        </tr>
+        <tr>
+            <td>Ani</td>
+            <td>25</td>
+            <td>Jakarta</td>
+        </tr>
+        <tr>
+            <td>Budi</td>
+            <td>30</td>
+            <td>Surabaya</td>
+        </tr>
+        <tr>
+            <td>Citra</td>
+            <td>28</td>
+            <td>Bandung</td>
+        </tr>
+    </table>
+
+    <!-- Bagian 6: Membuat Formulir -->
+    <h2>Formulir Pendaftaran</h2>
+    <form action="#" method="post">
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <input type="radio" id="pria" name="gender" value="pria">
+        <label for="pria">Pria</label><br>
+        <input type="radio" id="wanita" name="gender" value="wanita">
+        <label for="wanita">Wanita</label><br><br>
+
+        <label for="kota">Kota Tempat Tinggal:</label><br>
+        <select id="kota" name="kota">
+            <option value="jakarta">Jakarta</option>
+            <option value="surabaya">Surabaya</option>
+            <option value="bandung">Bandung</option>
+        </select><br><br>
+
+        <input type="checkbox" id="syarat" name="syarat">
+        <label for="syarat">Saya menyetujui syarat dan ketentuan</label><br><br>
+
+        <label for="pesan">Pesan atau Komentar:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
